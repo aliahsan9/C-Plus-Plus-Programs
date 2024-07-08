@@ -1,0 +1,26 @@
+
+#include <iostream>
+using namespace std;
+
+// Global variable
+int globalVar;
+
+// Function to multiply the global variable by 2
+void multiplyByTwo() {
+    globalVar *= 2;
+}
+
+int main() {
+    // Input a number into the global variable
+    cout << "Enter a number: ";
+    cin >> globalVar;
+
+    // Call the function to multiply the global variable by 2
+    multiplyByTwo();
+
+    // Display the global variable
+    cout << "Global variable multiplied by 2 is: " << globalVar << endl;
+
+    return 0;
+}
+
